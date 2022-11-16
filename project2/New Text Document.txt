@@ -1,0 +1,14 @@
+tutorial 31:
+working with static files. 
+
+here, project2 has templates inside projects & inside apps both.
+and static files inside projects.
+
+--settings.py--
+TEMPLATE_DIR = BASE_DIR/'templates'
+STATIC_DIR = BASE_DIR/'static'
+
+#inside templates info:
+'DIRS': [TEMPLATE_DIR],
+
+STATICFILES_DIRS = [STATIC_DIR]
