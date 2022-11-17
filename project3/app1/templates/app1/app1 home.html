@@ -1,0 +1,16 @@
+{% extends 'app1/base.html' %}
+{% load static %}
+{% block title %} Home {% endblock title %}
+{% block css %}{% static 'app1/css/style.css' %}{% endblock css %}
+
+{% block content1 %}
+    <h3>{{block.super}}</h3>
+    <h1>app1---home</h1>
+    <img src="{% static 'app1/images/myworld.jpg' %}" alt="myworld" height="200px">
+    <img src="{% get_static_prefix %}app1/images/myworld.jpg" alt="myworld" height="200px">
+    <form action="">
+        <input type="button" value="click me" onclick="disp()">
+    </form>
+
+    <script src="{% static 'app1/js/1.js' %}"></script>
+{% endblock content1 %}
