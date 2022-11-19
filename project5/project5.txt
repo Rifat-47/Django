@@ -1,0 +1,13 @@
+tutorial 51 to .... 52
+
+
+form field arguments,,
+label
+label_suffix
+initial(initial can be used in forms or views. views gets priority because views works during runtime)
+disabled
+help_text
+error_messages 
+validators 
+localize 
+widget
