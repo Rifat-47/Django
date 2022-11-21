@@ -1,0 +1,7 @@
+tutorial 56:
+
+get & post method
+
+is_valid()
+
+form.cleaned_data['attribute']
