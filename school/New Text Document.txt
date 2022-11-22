@@ -1,0 +1,20 @@
+tutorial 25: gs9
+
+
+PC: school
+
+topics: templates & static files inside project gets more priority,
+        templates & static files inside app gets less priority.
+        
+--settings.py--
+TEMPLATE_DIR = BASE_DIR/'templates'
+STATIC_DIR = BASE_DIR/'static'
+
+#inside templates info:
+'DIRS': [TEMPLATE_DIR],
+
+STATICFILES_DIRS = [STATIC_DIR]
+
+"""templates inside application"""
+"""tutorial upto 30: DTL(django template language) crash course"""
+filter,, for loop,, if tag,, date time format,, 
