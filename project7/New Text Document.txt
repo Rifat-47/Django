@@ -1,0 +1,11 @@
+tutorial 69:
+selecting modelform fields in django
+
+gs55 -> project7
+
+forms.py 
+# give all fields from model
+fields = '__all__'
+
+# exclude fields from model, can be list or tuples
+exclude = [] or ()
