@@ -1,0 +1,21 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}<title>Home</title>{% endblock title %}
+
+{% block content2 %} 
+    <h1>Welcome... App</h1>
+    <img src="{% static 'course/images/1.jpg' %}" alt="rifat" height="200px">
+    <i class="fas fa-address-card fa-5x"></i>
+    <i class="fa-solid fa-camera fa-5x"></i>
+    <i class="fa-brands fa-accusoft fa-10x"></i>
+    <i class="fa-brands fa-accessible-icon fa-5x"></i>
+    <i class="fa-solid fa-scale-unbalanced-flip fa-5x"></i>
+{% endblock content2 %}
+
+{% block content3 %}
+    <li><a href="/about">About</a></li>
+    <li><a href="{% url 'course-about' %}">About</a></li>
+
+    {% url 'course-about' as ca %}
+    <li><a href="{{ca}}">About</a></li>
+{% endblock content3 %}

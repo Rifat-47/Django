@@ -1,0 +1,12 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}<title>About</title>{% endblock title %}
+
+{% block content2 %} 
+    <h1>Welcome... About</h1>
+    <i class="fa-brands fa-accusoft fa-10x"></i>
+    <li><a href="{% url 'course-home' %}">Home</a></li>
+{% endblock content2 %}
+{% block content3 %}
+    {% include 'course/top course.html' with d='Django' %}
+{% endblock content3 %}
