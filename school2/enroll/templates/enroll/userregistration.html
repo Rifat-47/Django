@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <form action="" method="get">
+        <table>
+            {{form}}
+        </table>
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+    <form action="" method="get">
+        <table>
+            {{form.as_p}}
+        </table>
+        <input type="submit" value="Submit">
+    </form>
+    
+    <hr>
+    <form action="" method="get">
+        <table>
+            {{form.as_ul}}
+        </table>
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+    <form action="" method="get">
+        <table>
+            {{form.name}}
+        </table>
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+    <hr>
+    <h3>render form field manually</h3>
+    {{form.name.label}}
+    <hr>
+    {{form.name.label_tag}}
+    <hr>
+    {{form.name.id_for_label}}
+    <hr>
+    {{form.name.value}}
+    <hr>
+    {{form.name.html_name}}
+    <hr>
+    {{form.name.help_text}}
+    <hr>
+    {{form.name.name}}
+    <hr>
+    {{form.name.is_hidden}}
+    <hr>
+    {{form.name.field.required}}
+    <hr>
+</body>
+</html>

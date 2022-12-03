@@ -1,0 +1,15 @@
+# Working with models...
+username: admin
+password: admin
+
+tutorial 41:
+
+model creation 
+
+python manage.py showmigrations 
+python manage.py makemigrations 
+python manage.py migrate
+python manage.py sqlmigrate 'appname' 'migration-file-name'
+
+tutorial 42:
+show data to user from database 
