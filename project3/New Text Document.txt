@@ -1,9 +1,0 @@
-templates inside app
-
-tutorial 32:
-static files inside app 
-
-template inheritance:
-{% block content %} {% endblock content %}
-
-{{block.super}} = it takes all elements from the content of parent template.

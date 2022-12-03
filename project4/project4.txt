@@ -1,0 +1,8 @@
+tutorial 46 to 51:
+
+form API, display form to user, 
+
+auto_id, label_suffix, 
+ordering form field in views.py, 
+form rendering options, 
+loop form, visible & hidden fields, 
