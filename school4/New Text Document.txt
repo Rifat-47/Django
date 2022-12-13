@@ -1,0 +1,5 @@
+## 57. Validation of complete django form at once
+
+super().clean()
+
+note: """super().clean() method can't deal with empty value"""
