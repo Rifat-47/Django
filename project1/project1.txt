@@ -8,7 +8,6 @@ topics: templates & static files are inside project...
 TEMPLATE_DIR = BASE_DIR/'templates'
 STATIC_DIR = BASE_DIR/'static'
 
-
 'DIRS': [TEMPLATE_DIR],
 
 
